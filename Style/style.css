@@ -1,6 +1,6 @@
 #header {
   background-color: #19152c;
-  padding: 30px;
+  padding: 20px;
   text-align: center;
   font-size: 35px;
   color: white;
@@ -12,7 +12,6 @@ height: 120px;
 }  
 
 #nav {
-  background-color: grey;
   text-align: center;
   font-size: 25px;
   color: white;
@@ -28,7 +27,7 @@ height: 120px;
 
 #nav li {
   float: left;
-  border-right:1px solid #bbb;
+  border-right:1px solid #525252;
 }
 
 #nav li:last-child {
@@ -44,7 +43,7 @@ height: 120px;
 }
 
 #nav li a:hover:not(.active) {
-  background-color: darkblue;
+  background-color: #fabb57;
 }
 
 #nav .active {
@@ -52,31 +51,20 @@ height: 120px;
 }
 
 
-#article {
-  float: center;
+.container-fluid {
   padding: 20px;
-  background-color: #f1f1f1;
-  min-height: 1050px;
-  width: 100%;
+  background-color: darkgray;
 }
 
-/* Clear floats after the columns */
-section::after {
-  content: "";
-  display: table;
-  clear: both;
-  min-height: 100%;
-  width: 100%;
-}
 
 /* Style the footer */
-footer {
+#footer {
   background-color: #19152c;
   padding: 30px;
   text-align: center;
   width: 100%;
+  min-width: 10%;
   color: white;
   bottom: 0;
-  position: fixed;
 
 }

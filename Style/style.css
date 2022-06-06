@@ -52,7 +52,8 @@ height: 120px;
 
 
 .container-fluid {
-  padding: 20px;
+  width: 100%;
+  padding-top: 10px;
   background-color: darkgray;
   text-align: center;
 }

@@ -1,3 +1,7 @@
+html{
+    background-color: #19152c;
+}
+
 #header {
   background-color: #19152c;
   padding: 20px;
@@ -53,7 +57,7 @@ height: 120px;
 
 .container-fluid {
   width: 100%;
-  padding-top: 10px;
+  height: 30px;
   background-color: darkgray;
   text-align: center;
 }
@@ -62,7 +66,7 @@ height: 120px;
 /* Style the footer */
 #footer {
   background-color: #19152c;
-  padding: 30px;
+  padding: 25px;
   text-align: center;
   width: 100%;
   min-width: 10%;
